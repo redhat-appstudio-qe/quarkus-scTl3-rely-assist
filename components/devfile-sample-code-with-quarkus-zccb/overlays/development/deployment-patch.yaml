@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-zccb
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-iznx-tenant/quarkus/devfile-sample-code-with-quarkus-zccb@sha256:71a97f7f63d71b469591b5c556b5d2e047ff68a29954b593ac9cb46274025d83
+        name: my-java-quarkus
+        resources: {}
+status: {}
